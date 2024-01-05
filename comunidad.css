@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body
+{
+	background-color: #D6D2A9;
+}
+
+.barra
+{
+	width: 100%;
+	margin: 0;
+	background-color: rgb(68, 60, 47);
+	position: fixed;
+	top: 0;
+	margin-bottom: 3%;
+}
+
+li, a
+{
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 20px;
+	color: #D6D2A9;
+	text-decoration: none;
+}
+
+button
+{
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logoQ
+{
+	height: 120px;
+}
+
+.nav_links
+{
+	list-style: none;
+}
+
+.nav_links li
+{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a 
+{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover
+{
+	color: white;
+}
+
+button
+{
+	padding: 9px 25px;
+	background-color: #D5CD83;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+	background-color: #C2BC78;
+}
+
+.slogan
+{
+	clear: both;
+	margin-top: 250px;
+	width: 100%;
+	color: rgb(68, 60, 47);
+	margin-bottom: 1%;
+	background-color: none;
+	font-family: "Josefin Sans";
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+
+}
+
+.TTCL
+{
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: 1000;
+	font-size: 60px;
+	color: black;
+	margin-top: 90px;
+	margin-bottom: 3%;
+}
+
+.TTBB
+{
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: lighter;
+	font-size: 20px;
+	color: black;
+	clear: both;
+}
+
+.TTpro
+{
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: 1000;
+	font-size: 60px;
+	color: black;
+}
+
+.categoria
+{
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: 800;
+	font-size: 30px;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+
+.img1
+{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://i.pinimg.com/236x/2e/0e/6c/2e0e6c1f3f609c5e1213edd19c72f0c3.jpg);
+	margin-left: 20%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.img1:hover
+{
+	opacity: .5;
+}
+
+.img2
+{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://i.pinimg.com/564x/d6/af/d6/d6afd6446fe068807a597bb9f802a389.jpg);
+	margin-left: 2%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.img2:hover
+{
+	opacity: .5;
+}
+
+.img3
+{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://i.pinimg.com/564x/d8/9e/97/d89e9723f31fd3aa8aa9a287d98f481a.jpg);
+	margin-left: 2%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.img3:hover
+{
+	opacity: .5;
+}
+
+.img4
+{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://i.pinimg.com/564x/79/bc/cb/79bccb484626f0f461c5df3d622ccfa6.jpg);
+	margin-left: 20%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both; float: left;
+}
+
+.img4:hover
+{
+	opacity: .5;
+}
+
+
+.img5
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 2%;
+	background-image: url(https://i.pinimg.com/564x/31/14/aa/3114aa69797aafab28cfa84a7cca3d51.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.img5:hover
+{
+	opacity: .5;
+}
+
+.img6
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 2%;
+	background-image: url(https://i.pinimg.com/564x/da/51/5d/da515d6196259246e8ac79810b382075.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+    float: left;
+}
+
+.img6:hover
+{
+	opacity: .5;
+}
+
+.img7
+{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://i.pinimg.com/564x/30/31/70/303170248c378562bea80367cdd2b1d5.jpg);
+	margin-left: 20%;
+	background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    float: left;
+}
+
+.img7:hover
+{
+	opacity: .5;
+}
+
+
+
+.img8
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 2%;
+	background-image: url(https://i.pinimg.com/564x/28/cd/da/28cdda8a193dddc3c02881b038dbcbe6.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.img8:hover
+{
+	opacity: .5;
+}
+
+
+
+.img9
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 2%;
+	background-image: url(https://i.pinimg.com/564x/31/2c/1f/312c1f5432cc41d90f44787156d858b9.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+    float: left;
+}
+
+.img9:hover
+{
+	opacity: .5;
+}
+
+.cjCV
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	width: 90%;
+	background-color: #C2BB97;
+}
+
+.CV
+{
+	padding-top: 1%;
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: bolder;
+	font-size: 20px;
+	color: black;
+}
+
+.txmis li
+{
+	text-align: justify;
+	font-family: "DM Sans";
+	font-weight: 200;
+	font-size: 15px;
+	color: black;
+	padding-right: 3%;
+	padding-bottom: 1%;
+}
+
+.txcp
+{
+	text-align: justify;
+	font-family: "DM Sans";
+	font-weight: 200;
+	font-size: 15px;
+	color: black;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
+.cjCC
+{
+	background-color: #C2BB97;
+	clear: both;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+}
+
+.AV
+{
+	text-align: center;
+	font-family: "DM Sans";
+	font-weight: 800;
+	font-size: 30px;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 3%;
+	clear: both;
+}
+
+.cjj1
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 20%;
+	margin-right: 2%;
+	float: left;
+	background-image: url("https://i.pinimg.com/564x/32/59/fa/3259fa634062cdf5c62637dc6f81ae53.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cj1
+{
+	width: 40%;
+	height: 250px;
+	margin-left: 0;
+	margin-right: 10%;
+	background-color: #C2BB97;
+	float: left;
+	margin-bottom: 2%;
+}
+
+.tt
+{
+	color: black;
+	font-family: "DM Sans";
+	text-align: justify;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.cj2
+{
+	width: 40%;
+	height: 250px;
+	background-color: #C2BB97;
+	float: left;
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 2%;
+}
+
+.cjj2
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 0;
+	margin-right: 10%;
+	float: left;
+	background-image: url("https://i.pinimg.com/564x/77/69/49/77694967fc2f5bd73c9de0db020a58c8.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tt2
+{
+	color: black;
+	font-family: "DM Sans";
+	text-align: justify;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.cjj3
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 20%;
+	margin-right: 2%;
+	float: left;
+	background-image: url("disc.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cj3
+{
+	width: 40%;
+	height: 250px;
+	margin-left: 0;
+	margin-right: 10%;
+	background-color: #C2BB97;
+	float: left;
+	margin-bottom: 7%;
+}
+
+.tt3
+{
+	color: black;
+	font-family: "DM Sans";
+	text-align: justify;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.final
+{
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: rgb(68, 60, 47);
+}
+
+
+footer {
+	min-height: 300px;
+	text-align: center;
+	clear: both;
+	background-color: rgb(194, 187, 151);
+	margin-top: 10%;
+}
+
+.footer-texto {
+	font-size: 2rem;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: 'jomolhari', sans-serif;
+}
+
+
+.derechos-de-autor {
+	margin-top: 3%;
+	font-size: 20px;
+	color: rgb(68, 60, 47);
+	padding: 20px;
+	text-align: center;
+}
+
+.hablemos{
+	width: 70%;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+.contactarnos {
+	font-size: 28px;
+	color:white;
+	margin-top: 60px;
+}
+
+.instaimg{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.faceimg{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.ytimg{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.tiktokimg{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.enevelopeimg{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.extra {
+	font-size: 20px;
+	color: rgb(68, 60, 47);
+	text-align: center;
+}
